@@ -1,6 +1,7 @@
-# Netflix_Azure_Data_Engineering_Project
-
 # 🎬 Netflix Data Engineering Project
+
+<img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/0ee4b030-d8b1-4d4f-b524-648d6bd306e3" />
+
 
 ## 📌 Project Overview
 This project is an end-to-end **Azure Data Engineering pipeline** built using **Azure Data Factory (ADF), Azure Data Lake Storage Gen2 (ADLS), Azure Databricks, PySpark, and Delta Lake**.
