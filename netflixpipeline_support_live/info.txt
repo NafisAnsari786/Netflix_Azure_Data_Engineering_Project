@@ -1,6 +1,0 @@
-selected resource name:		netflixpipeline
-selected resource type:		pipeline
-factory name:			adf-netflix-nafis
-factory location:		centralindia
-subscription id:		ac34895c-7850-4854-be52-447df37cf428
-time of download (UTC):		Wed, 25 Mar 2026 08:35:18 GMT
