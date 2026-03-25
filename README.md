@@ -26,41 +26,6 @@ GitHub Raw CSV → ADF Validation → ADF Copy Activity → ADLS Raw Layer → D
 
 ---
 
-## 📂 Project Structure
-```bash
-Netflix-Data-Engineering-Project/
-│
-├── notebooks/
-│   ├── 01_bronze_ingestion.py
-│   ├── 02_silver_transformation.py
-│   ├── 03_gold_analytics.py
-│
-├── adf/
-│   ├── pipeline_screenshots/
-│   ├── linked_services/
-│   └── datasets/
-│
-├── architecture/
-│   ├── architecture.png
-│   └── pipeline_flow.png
-│
-├── screenshots/
-│   ├── adf_pipeline_success.png
-│   ├── adls_containers.png
-│   ├── databricks_bronze.png
-│   ├── databricks_silver.png
-│   ├── databricks_gold.png
-│   ├── spark_transformations.png
-│   └── final_output.png
-│
-├── data/
-│   └── sample_netflix_titles.csv
-│
-├── sql/
-│   └── validation_queries.sql
-│
-└── README.md
-```
 
 ---
 
