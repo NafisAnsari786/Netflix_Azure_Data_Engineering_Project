@@ -21,7 +21,7 @@ While the primary focus is on backend data engineering, orchestration, and data 
 - Downstream Integration: Power BI (via Databricks Partner Connect)
 
 ## 🏗️ Architecture & Data Flow
-The pipeline is structured into distinct, logically separated storage containers within ADLS (raw, bronze, silver, gold, metastore, $logs) to enforce strict data governance.
+The pipeline is structured into distinct, logically separated storage containers within ADLS (raw, bronze, silver, gold, metastore) to enforce strict data governance.
 
 **1. Data Ingestion (Azure Data Factory)**
 - Configured an ADF pipeline to dynamically pull raw JSON/CSV files from a GitHub API.
