@@ -59,9 +59,9 @@ Data is processed incrementally through three distinct layers to ensure a "singl
 
 - `/Project Snips`: Visual proof of pipeline execution, ADF triggers, DLT graphs, and ADLS container structure.
 
-- `/ADF Pipeline`: Contains all the Linked Services data, LS datasets and json files.
+- `/ADF Pipeline`: Contains all the Linked Services, LS datasets and json files.
 
-- `/RawData`: Conatins all the raw data 
+- `/RawData`: Contains all the raw data 
 
 ---
 
