@@ -55,11 +55,13 @@ Data is processed incrementally through three distinct layers to ensure a "singl
 - Future Scope: Development of an interactive Power BI dashboard to visualize content trends, geographical distribution of productions, and director-to-genre mappings.
 
 📂 Repository Structure
-/notebooks: Contains all PySpark and DLT code (Autoloader, Silver transformations, Gold DLT expectations).
+- `/Pyspark scripts`: Contains all PySpark and DLT Notebooks (Autoloader, Silver transformations, Gold DLT expectations).
 
-/images: Visual proof of pipeline execution, ADF triggers, DLT graphs, and ADLS container structure.
+- `/Project Snips`: Visual proof of pipeline execution, ADF triggers, DLT graphs, and ADLS container structure.
 
-/data: Sample metadata and lookup structures (if applicable).
+- `/ADF Pipeline`: Contains all the Linked Services data, LS datasets and json files.
+
+- `/RawData`: Conatins all the raw data 
 
 ---
 
@@ -67,5 +69,5 @@ Data is processed incrementally through three distinct layers to ensure a "singl
 **Nafis Ansari**  
 Data Analyst / Data Engineer  
 
-🔗 [LinkedIn](https://www.linkedin.com/)  
-🔗 [GitHub](https://github.com/)
+🔗 [LinkedIn](https://www.linkedin.com/in/nafis-ansari-63878b182/)  
+🔗 [GitHub](https://github.com/NafisAnsari786)
