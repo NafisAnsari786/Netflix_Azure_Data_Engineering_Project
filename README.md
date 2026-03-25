@@ -33,11 +33,14 @@ Data is processed incrementally through three distinct layers to ensure a "singl
 **🥉 Bronze Layer (Raw Ingestion):** Implemented Databricks Auto Loader to incrementally stream newly landed files from the raw container.
 - Preserved the exact state of the source data while appending metadata for traceability.
 
+
 **🥈 Silver Layer (Cleansed & Standardized):** Handled missing values, standardized schema formats, and removed duplicates using PySpark.
 - Created clean master lookup tables, ready for complex joins.
 
+
 **🥇 Gold Layer (Business-Ready Aggregates):** Leveraged Delta Live Tables (DLT) to build a directed acyclic graph (DAG) of streaming tables.
 - Generated highly optimized, use-case-specific tables: `gold_netflixcast`, `gold_netflixcategory`, `gold_netflixcountries`, `gold_netflixdirectors`, and `gold_netflixtitles`.
+
 
 **3. Data Quality & Reliability**
 - Enforced strict data quality constraints at the Gold layer using DLT expectations (e.g., @dlt.expect_or_drop("valid_id", "show_id IS NOT NULL")).
